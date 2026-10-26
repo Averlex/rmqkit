@@ -26,5 +26,8 @@ ehthumbs.db
 Thumbs.db
 .vscode/
 *.bak
-.golangci.yml
 bin/
+
+# Local configuration and secret-bearing environment files
+.env
+.env.*
