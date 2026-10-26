@@ -1,0 +1,17 @@
+version: "2"
+run:
+  tests: true
+linters:
+  default: none
+  enable:
+    - durationcheck
+    - errcheck
+    - errorlint
+    - gosec
+    - govet
+    - ineffassign
+    - staticcheck
+    - unused
+formatters:
+  enable:
+    - gofmt
